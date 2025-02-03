@@ -1,0 +1,24 @@
+version: '3.9'
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb_container
+    ports:
+      - "27017:27017" # Expose MongoDB on the default port
+    volumes:
+      - mongodb_data:/data/db # Persistent data storage for MongoDB
+    restart: always # Ensure the container restarts automatically in case of failure
+
+  redis:
+    image: redis:latest
+    container_name: redis_container
+    ports:
+      - "6379:6379" # Expose Redis on the default port
+    command: ["redis-server", "--save", "60", "1"] # Configure Redis to persist data
+    volumes:
+      - redis_data:/data # Persistent data storage for Redis
+    restart: always # Ensure the container restarts automatically in case of failure
+
+volumes:
+  mongodb_data:
+  redis_data:

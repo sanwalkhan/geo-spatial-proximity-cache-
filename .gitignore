@@ -1,0 +1,12 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Geolife-Trajectories.zip file
+Geolife-Trajectories.zip
+
+# Ignore Geolife-Trajectories directory
+Geolife_Trajectories
+
+myenv
+geolife.zameen-prices.json
+*.json

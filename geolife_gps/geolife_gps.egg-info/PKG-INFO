@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: geolife_gps
+Version: 0.1
+Summary: A package for analyzing GeoLife GPS trajectories
+Author: Usman Ahmed
+Author-email: gorayausman061@gmail.com
+Keywords: gps,trajectory,geolocation
+Requires-Python: >=3.6
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pymongo
+Dynamic: author
+Dynamic: author-email
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

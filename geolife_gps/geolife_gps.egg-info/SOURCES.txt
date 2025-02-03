@@ -1,0 +1,6 @@
+setup.py
+geolife_gps.egg-info/PKG-INFO
+geolife_gps.egg-info/SOURCES.txt
+geolife_gps.egg-info/dependency_links.txt
+geolife_gps.egg-info/requires.txt
+geolife_gps.egg-info/top_level.txt
